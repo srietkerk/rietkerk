@@ -1,0 +1,29 @@
+.profile-pic {
+    height: 72%;
+    width: 75%;
+}
+
+.background {
+    background-image: url('../assets/sarah-rietkerk.jpg');
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-filter: blur(2rem);
+    -moz-filter: blur(2rem);
+    filter: blur(2rem);
+    -o-filter: blur(2rem);
+    -ms-filter: blur(2rem);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+.intro-content {
+    z-index: 1;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+}
